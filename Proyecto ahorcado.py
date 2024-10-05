@@ -97,6 +97,20 @@ def CasoPrueba():
     won = 0 
     lives = 6
     guessed = []
+    lost=('''
+       +---+
+       |   |
+       O   |
+      /|\  |
+      / \  |
+           |
+     _______
+       ''')
+    w=('''
+       O   
+      /|\  
+      / \ 
+     ''')
     words = ["basketball","volleyball","futball","soccer","tennis","padel","squash","natacion","baile","ajedrez","esgrima", "equitacion","polo","clavados","atletismo","gimnasia","badminton","pingpong","boxeo","taekwondo","surf","ciclismo","criquet","patinaje","waterpolo","rugby",]
 
     chosen_word = random.choice(words)
@@ -124,13 +138,13 @@ def CasoPrueba():
 
       if "_" not in guessed:
         won = 1
-        print("Ganaste!")
+        print("Ganaste!", w)
 
       if guess not in chosen_word:
         lives -= 1
         if lives == 0:
           won = 1
-          print("Perdiste!")
+          print("Perdiste!", lost)
 
       print(lives)
 
