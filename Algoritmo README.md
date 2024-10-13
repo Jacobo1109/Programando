@@ -6,6 +6,9 @@ Se le solicitará al usuario su nombre para iniciar el juego, después se le exp
 # ¿Porque?
 La razón por la que decidí hacer este trabajo es debido a que este es un juego muy divertido para los usuarios y que también te puede apoyar para expandir y verificar tus conocimientos generales sobre palabras. Siento que también es una forma demasiado interesante de poder mostrarme todas las herramientas que he logrado aprender a lo largo de la programación y poner todos mis conocimientos en práctica.
 
+# ¿Cómo funciona?
+El usuario deberá tener Python o Thonny instalado en su computadora. A la hora de correr el programa, l usuario le van a aparecer 4 opciones en el menú, la primera opción es para que el usuario juegue ahorcado, para que pase esto el jugador deberá poner el número 1 y entonces ya podrá empezar a adivinar la palabra que fue seleccionada al insertar la letra que cree que está en la palabra, a la hora de terminar sin importar si ganó o perdió se le va a poner el menú nuevamente. Si el usuario quiere un ejemplo de como funciona el juego entonces deberá poner el número 2 y con eso la computadora jugará por si sola al ahorcado, si el usuario ya terminó con el uso del programa entonces deberá insertar el número 3, y si desea ver las palabras que se están utilizando entonces deberá insertar el número 4 y se imprimirán todas las palabras del archivo.
+
 # Algoritmo
 
 Entrada 1.- Opción para la función que el usuario quiera utilizar (jugar ahorcado, caso prueba, salir) 2.- Letras (Intentando adivinar la palabra)
