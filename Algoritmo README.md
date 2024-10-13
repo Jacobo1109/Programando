@@ -38,3 +38,21 @@ Proceso 1.-Solicitar el nombre del usuario.
 Salida 1.-Ganar: La palabra (De haber sido descubierta) 
 
 2.-Perder: Al ahorcado (De no haber podido descifrar la palabra)
+
+# Temas
+1.	Ciclo while – El ciclo while es utilizado principalmente en este código para establecer la condición que mientras que la variable won no sea igual a cero entonces se va a repetir preguntándole al usuario que adivine la palabra letra por letra, dentro de todo esto ponemos que las vidas se van a ir bajando y se seguirá repitiendo el código hasta un punto en el que se llegue a cero.
+
+
+2.	Strings – Los strings en lo particular están utilizados para que el usuario adivine la palabra, están utilizados para la entrada del jugador que es la letra que está adivinando y particularmente también están siendo utilizados en los dibujos del ahorcado ya que estos son strings, también la parte de los mensajes hacia el usuario son strings.
+
+
+3.	Listas – El mayor uso de las listas es para las “imágenes” o dibujos que se están utilizando del ahorcado, estos a lo largo  del código están programados para que se desplieguen cada vez que el usuario falla alguna letra, para cuando el usuario gane o pierda.
+
+
+4.	Ciclos for – El uso más importante que tiene el ciclo for en el código es que esta va a comparar la letra ingresada por el usuario y las letras que están faltando en la palabra, el for también es utilizado para que se cambie la cantidad de letras por “_”, y por último el ciclo for también es utilizado para que pueda mostrar el progreso que el usuario lleva a lo largo del juego. 
+
+
+5.	Archivos – Los archivos están utilizados para crear la lista de palabras que se va a utilizar a lo largo del juego, mediante este archivo podremos escoger una palabra del documento de forma aleatoria con el import random y así que si en cierto futuro se le quiera añadir palabras entonces se pueda.
+
+
+6.	Funciones – El programa está desarrollado por varias funciones, tales como la del archivo, la del juego del ahorcado, la del caso prueba, la del menú y el main, cana función tiene su objetivos a cumplir y su propósito para que se ejecute a lo largo del programa.
