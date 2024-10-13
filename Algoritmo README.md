@@ -7,7 +7,10 @@ Se le solicitará al usuario su nombre para iniciar el juego, después se le exp
 La razón por la que decidí hacer este trabajo es debido a que este es un juego muy divertido para los usuarios y que también te puede apoyar para expandir y verificar tus conocimientos generales sobre palabras. Siento que también es una forma demasiado interesante de poder mostrarme todas las herramientas que he logrado aprender a lo largo de la programación y poner todos mis conocimientos en práctica.
 
 # ¿Cómo funciona?
-El usuario deberá tener Python o Thonny instalado en su computadora. A la hora de correr el programa, l usuario le van a aparecer 4 opciones en el menú, la primera opción es para que el usuario juegue ahorcado, para que pase esto el jugador deberá poner el número 1 y entonces ya podrá empezar a adivinar la palabra que fue seleccionada al insertar la letra que cree que está en la palabra, a la hora de terminar sin importar si ganó o perdió se le va a poner el menú nuevamente. Si el usuario quiere un ejemplo de como funciona el juego entonces deberá poner el número 2 y con eso la computadora jugará por si sola al ahorcado, si el usuario ya terminó con el uso del programa entonces deberá insertar el número 3, y si desea ver las palabras que se están utilizando entonces deberá insertar el número 4 y se imprimirán todas las palabras del archivo.
+El código se conforma del uso de diferentes reglas, condiciones, etc. tal como el uso de ciclos while, ciclos for, if, funciones, strings, archivos, etc. Cada de los temas mencionados fue vital para la elaboración de este juego, 
+
+# Instrucciones
+El usuario deberá tener Python o Thonny instalado en su computadora. A la hora de correr el programa, l usuario le van a aparecer 4 opciones en el menú, la primera opción es para que el usuario juegue ahorcado, para que pase esto el jugador deberá poner el número 1 y entonces ya podrá empezar a adivinar la palabra que fue seleccionada al insertar la letra que cree que está en la palabra, a la hora de terminar sin importar si ganó o perdió se le va a poner el menú nuevamente. Si el usuario quiere un ejemplo de como funciona el juego entonces deberá poner el número 2 y con eso la computadora jugará por si sola al ahorcado, si el usuario ya terminó con el uso del programa entonces deberá insertar el número 3, y si desea ver las palabras que se están utilizando entonces deberá insertar el número 4 y se imprimirán todas las palabras del archivo. Si no tienen Thonny para poder correr el programa favor de visualizar el siguiente video: https://www.youtube.com/watch?v=JQwsIhsnoiA&pp=ygUVQ29tbyBkZXNjYXJnYXIgdGhvbm55
 
 # Algoritmo
 
@@ -66,3 +69,5 @@ Salida 1.-Ganar: La palabra (De haber sido descubierta)
 
 
 6.	Funciones – El programa está desarrollado por varias funciones, tales como la del archivo, la del juego del ahorcado, la del caso prueba, la del menú y el main, cana función tiene su objetivos a cumplir y su propósito para que se ejecute a lo largo del programa.
+
+# Espero que disfruten el juego :)
